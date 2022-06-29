@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.solicitar {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#formularioPedido input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: 1.5px solid rgb(193, 191, 191);
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#formularioPedido button {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 0 4px 8px 0 rgba(157, 230, 98, 0.918);
+    margin: 20px;
+    padding: 10px;
+}
+
+.card .cliente,
+.pedido,
+.botones {
+    font-size: 20px;
+    text-align: center;
+}
+
+.card .cliente {
+    margin: 20px;
+}
+
+.editar,
+.eliminar {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
+
+.editar {
+    background-color: green;
+    transition: 0.5s all ease-in-out;
+}
+
+.editar:hover {
+    background-color: gray;
+    color: white;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(157, 230, 98, 0.918);
+}
+
+.eliminar {
+    background-color: red;
+    transition: 0.5s all ease-in-out;
+}
+
+.eliminar:hover {
+    background-color: firebrick;
+    color: white;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(203, 74, 74, 0.516);
+}
+
+@media (min-width:550px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}

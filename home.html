@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>CRUD</title>
+    </head>
+    <body>
+
+        <main class="solicitar">
+            <h1>Solicitar Pedidos</h1>
+            <form id="formularioPedido">
+                <div>
+                    <input type="text" id="nombre" placeholder="Ingrese nombre">
+                </div>
+                <div>
+                    <textarea name="pedido" id="pedido" cols="30" rows="10"
+                        placeholder="Ingrese pedido"></textarea>
+                </div>
+                <button type="submit">Solicitar</button>
+            </form>
+        </main>
+
+        <div class="container" id="dataPedido">
+
+        </div>
+
+        <!-- <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Pedido</th>
+                </tr>
+            </thead>
+            <tbody id="dataPedido">
+
+            </tbody>
+        </table> -->
+        <script src="crud.js"></script>
+
+    </body>
+</html>
