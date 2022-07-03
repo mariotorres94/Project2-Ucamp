@@ -16,7 +16,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.header{
+.header {
     width: 100%;
     text-align: center;
     margin: 10px 0;
@@ -104,10 +104,10 @@ textarea {
 }
 
 @media (min-width:550px) {
-    .container {
+    /* .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     .solicitar {
         max-width: 600px;
