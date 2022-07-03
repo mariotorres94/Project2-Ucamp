@@ -3,7 +3,9 @@
 const formPedido = document.getElementById('formularioPedido');
 const nombre = document.getElementById('nombre');
 const pedido = document.getElementById('pedido');
+const pedidoActualizado = document.getElementById('pedidoActualizado');
 const dataPedido = document.getElementById('dataPedido');
+const guardar = document.getElementById('guardar');
 
 let pedidos = [];
 
@@ -53,12 +55,13 @@ function addPedido(nombre, pedido) {
 }
 
 function editPedido(indice) {
+    // console.log(pedidos[indice].pedido);
     pedidos[indice].pedido = prompt('Ingrese el nuevo pedido.');
     mostrarPedidos();
 }
 
 function deletePedido(indice) {
-    pedidos.splice(indice,1);
+    pedidos.splice(indice, 1);
     mostrarPedidos();
 }
 
