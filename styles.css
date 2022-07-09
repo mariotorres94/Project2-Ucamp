@@ -103,6 +103,13 @@ textarea {
     box-shadow: 0 4px 8px 0 rgba(203, 74, 74, 0.516);
 }
 
+.footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 40px;
+    font-size: 16px;
+}
+
 @media (min-width:550px) {
     .container {
         display: grid;
